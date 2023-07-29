@@ -1,4 +1,4 @@
-using System.Linq;
+using Leetcode.Common;
 
 namespace Leetcode.Problem2
 {
@@ -41,16 +41,6 @@ namespace Leetcode.Problem2
             }
 
             return node;
-        }
-    }
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
-        public ListNode(int val = 0, ListNode next = null)
-        {
-            this.val = val;
-            this.next = next;
         }
     }
 }
