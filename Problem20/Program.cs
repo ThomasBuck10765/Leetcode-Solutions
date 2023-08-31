@@ -43,16 +43,12 @@ namespace Leetcode.Problem20
             {
                 case '(':
                     return ')';
-                    break;
                 case '[':
                     return ']';
-                    break;
                 case '{':
                     return '}';
-                    break;
                 default:
                     return ' ';
-                    break;
             };
         }
     }
