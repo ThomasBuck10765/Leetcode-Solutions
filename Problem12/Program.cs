@@ -1,6 +1,4 @@
-using Common;
-using System.Collections.Generic;
-using System.Linq;
+using Leetcode.Common;
 
 namespace Leetcode.Problem12
 {
@@ -13,20 +11,20 @@ namespace Leetcode.Problem12
 
         public static string IntToRoman(int num)
         {
-            //TODO:
+            string roman = "";
 
-            return "";
+            if (num <= 0) return roman;
+
+            foreach(var val in RomanNumeral.RomanNumeralIntDict)
+            {
+                while (num >= val.Key)
+                {
+                    roman += val.Value;
+                    num -= val.Key;
+                }
+            }
+
+            return roman;
         }
-
-        public static Dictionary<int, char> RomanNumeralIntDict = new Dictionary<int, char>()
-        {
-            {1000, 'M'},
-            {500, 'D'},
-            {100, 'C' },
-            {50, 'L' },
-            {10, 'X' },
-            {5, 'V' },
-            {1, 'I' },
-        };
     }
 }

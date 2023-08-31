@@ -1,5 +1,4 @@
-﻿using Leetcode.Problem12;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace Tests
 {
@@ -12,7 +11,7 @@ namespace Tests
 
             var num = 3;
 
-            var actual = Program.IntToRoman(num);
+            var actual = Leetcode.Problem12.Program.IntToRoman(num);
 
             Assert.AreEqual(expected, actual);
         }
@@ -24,7 +23,7 @@ namespace Tests
 
             var num = 58;
 
-            var actual = Program.IntToRoman(num);
+            var actual = Leetcode.Problem12.Program.IntToRoman(num);
 
             Assert.AreEqual(expected, actual);
         }
@@ -37,7 +36,7 @@ namespace Tests
 
             var num = 1994;
 
-            var actual = Program.IntToRoman(num);
+            var actual = Leetcode.Problem12.Program.IntToRoman(num);
 
             Assert.AreEqual(expected, actual);
         }

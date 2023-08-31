@@ -1,6 +1,5 @@
-using Common;
+using Leetcode.Common;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 
 namespace Leetcode.Problem13
@@ -22,12 +21,12 @@ namespace Leetcode.Problem13
             {
                 char current = charArray[i];
 
-                // Considerations for CM (900), CD (500), XC (90), XL (40), IX (9), IV (4)
+                // Considerations for CM (900), CD (400), XC (90), XL (40), IX (9), IV (4)
                 if (i <= charArray.Length - 2)
                 {
                     char next = charArray[i + 1];
 
-                    for (int j = 0; j < RomanNumeral.RomanNumeralDict.Keys.Count - 2; j += 2)
+                    for (int j = 0; j < RomanNumeral.RomanNumeralDict.Count - 2; j += 2)
                     {
                         int addition = 0;
                         if (current == RomanNumeral.RomanNumeralDict.ElementAt(j).Key)

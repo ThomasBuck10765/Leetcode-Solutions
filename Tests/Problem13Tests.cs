@@ -1,5 +1,4 @@
-﻿using Leetcode.Problem13;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace Tests
 {
@@ -12,7 +11,7 @@ namespace Tests
 
             var s = "III";
 
-            var actual = Program.RomanToInt(s);
+            var actual = Leetcode.Problem13.Program.RomanToInt(s);
 
             Assert.AreEqual(expected, actual);
         }
@@ -24,7 +23,7 @@ namespace Tests
 
             var s = "LVIII";
 
-            var actual = Program.RomanToInt(s);
+            var actual = Leetcode.Problem13.Program.RomanToInt(s);
 
             Assert.AreEqual(expected, actual);
         }
@@ -37,7 +36,7 @@ namespace Tests
 
             var s = "MCMXCIV";
 
-            var actual = Program.RomanToInt(s);
+            var actual = Leetcode.Problem13.Program.RomanToInt(s);
 
             Assert.AreEqual(expected, actual);
         }
