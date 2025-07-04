@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Problem 19\Problem 19.csproj" />
+    <ProjectReference Include="..\Problem19\Problem19.csproj" />
     <ProjectReference Include="..\Problem11\Problem11.csproj" />
     <ProjectReference Include="..\Problem12\Problem12.csproj" />
     <ProjectReference Include="..\Problem13\Problem13.csproj" />
@@ -27,6 +27,7 @@
     <ProjectReference Include="..\Problem24\Problem24.csproj" />
     <ProjectReference Include="..\Problem2\Problem2.csproj" />
     <ProjectReference Include="..\Problem36\Problem36.csproj" />
+    <ProjectReference Include="..\Problem3\Problem3.csproj" />
     <ProjectReference Include="..\Problem4\Problem4.csproj" />
     <ProjectReference Include="..\Problem5\Problem5.csproj" />
     <ProjectReference Include="..\Problem7\Problem7.csproj" />
